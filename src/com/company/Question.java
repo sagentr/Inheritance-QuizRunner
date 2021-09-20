@@ -30,5 +30,5 @@ public abstract class Question {
 
     public abstract void displayAnswers ();
 
-    public abstract void getAnswers ();
+    public abstract int getAnswers ();
 }
