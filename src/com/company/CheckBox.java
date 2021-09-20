@@ -47,7 +47,7 @@ public class CheckBox extends Question{
         System.out.println("For this question, there are multiple correct answers. To begin answering the question, enter 'y'.");
         Scanner userContinue = new Scanner(System.in);
         String goingToContinue = userContinue.nextLine();
-        while (goingToContinue.indexOf('y') >= 0 && usersAnswers.size() <= possibleAnswers.size()) {
+        while (goingToContinue.indexOf('y') >= 0 && userAnswers.size() <= possibleAnswers.size()) {
             System.out.println("What will your answer be? Enter the number of the option you believe is correct. For examp[le, to select the first option");
             Scanner userAnswer = new Scanner(System.in);
             String answer = userAnswer.nextLine();
